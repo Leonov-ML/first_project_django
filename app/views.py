@@ -15,7 +15,7 @@ def home_view(request):
     context = {
         'pages': pages
     }
-    return render(request, template_name, context)
+    return render(request, 'home.html', context)
 
 
 def time_view(request):
